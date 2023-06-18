@@ -1,12 +1,14 @@
 //fazer a controller
 const knex = require('knex')({
     client: 'mysql2',
-    connection: 'mysql://root:1234@localhost:3306/trabalho_s',
+    connection: 'mysql://MichelEnzo:UVA@1234567@aoo.mysql.database.azure.com/trabalho_s',
     pool: {
         min: 2,
         max: 10,
-    }
+    },
 });
+
+// mysql://MichelEnzo:1234@localhost:3306/trabalho_s'
 
 const AlunoController = {
     async buscar(req, res) {

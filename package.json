@@ -5,6 +5,7 @@
   "main": "src/context.js",
   "scripts": {
     "start": "node src/context.js",
+    "build": "echo \"Error: no test specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jean michel, enzo teglas e angelo",
